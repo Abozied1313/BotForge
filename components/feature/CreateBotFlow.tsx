@@ -1,12 +1,12 @@
 import React from 'react';
 import {
   View, Text, StyleSheet, Pressable, ScrollView,
-  TextInput, Alert, Platform,
+  TextInput,
 } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
 import { Colors, Spacing, Radius, FontSize, FontWeight } from '@/constants/theme';
 import { Language } from '@/hooks/useDemoChat';
-import { useCreateBot, CreateStep } from '@/hooks/useCreateBot';
+import { useCreateBot } from '@/hooks/useCreateBot';
 import { BOT_DOMAINS, TONE_OPTIONS, PRICING_PLANS } from '@/constants/data';
 
 interface Props {
